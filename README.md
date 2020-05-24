@@ -1,12 +1,28 @@
-# T2A-1 Workbook
-## 1. Describe the architecture of a typical Rails application
+# T2A-2 Workbook
+## 1. Describe the architecture of a typical Rails application.
 Word Count guide: 200-300 words
+The basic architecture of a Rails Application consists of the Model, View, and Controller.
+CRUD operations. - is where the most logic, heavy algorithms. It’s the business logic-intelligence of the application
+Architectural pattern.
+ 
 
-## 2. Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database	
+ **Model**  
+ 
+ The Model is in charge of storing and managing the dating in the Rails Application.Th model defines the shape and structure of the data in the application. It defines the data, how its structured, and the different relationships between the data. Responsible for taking the data that comes from the view layer and then stores it somewhere, structures it. Defines what that data is that we actually need. Responsible for handling the Create o
+
+  **View**  
+
+The View is the front end of the app. The user inputs data into the view. The view is responsible for the user interaction and display. 
+
+ **Controller**  
+
+The Controller manages the top to bottom relationship.
+
+## 2. Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database.	
 Word Count guide: 150-250 words
 
 
-## 3. Discuss the implementation of Agile project management methodology	
+## 3. Discuss the implementation of Agile project management methodology.	
 Word Count guide: 200-300 words <br>
 
 The Agile method is a concept in project management that is aimed at garnering customer satisfaction by adhering to four principle values. The first value of the Agile method focuses on interactions and individuals over tools and process. Teamwork, collabaration, and face –to – face interactions are prioritized in order to ensure architectural requirements are being met and ample support is given to each member of the team. Daily collabaration also keeps indivuduals motivated on the task at hand.  
@@ -32,23 +48,23 @@ https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/
  
 
 
-## 4. Provide an overview and description of a standard source control workflow	
+## 4. Provide an overview and description of a standard source control workflow.	
 Word Count guide: 100-200 words
 
-## 5. Provide an overview and description of a standard software testing process (e.g. manual testing)
-Word Count guide: 100-200 words
-
-
-## 6. Discuss and analyse requirements related to information system security and how they relate to the project	
+## 5. Provide an overview and description of a standard software testing process (e.g. manual testing).
 Word Count guide: 100-200 words
 
 
-
-## 7. Discuss common methods of protecting information and data and how you would apply them to the project		
+## 6. Discuss and analyse requirements related to information system security and how they relate to the project.	
 Word Count guide: 100-200 words
 
 
-## 8. Research what your legal obligations are in relation to handling user data and how they can be met for the project	
+
+## 7. Discuss common methods of protecting information and data and how you would apply them to the project.		
+Word Count guide: 100-200 words
+
+
+## 8. Research what your legal obligations are in relation to handling user data and how they can be met for the project.	
 
 ## 9. Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.	
 
@@ -56,9 +72,9 @@ Word Count guide: 100-200 words
 
 ## 11. Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.	
 
-## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O).
 
-## 13. Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+## 13. Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O).
 
 ## 14. Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.
   a. List and describe the software used by the app.
@@ -66,9 +82,9 @@ Word Count guide: 100-200 words
 
   b. Describe the hardware used to host the app.
    <br> <br>
-  c. Describe the interaction of technologies within the app <br> <br>
-  d. Describe the way data is structured within the app <br> <br>
-  e. Identify entities which must be tracked by the app <br> <br>
-  f. Identify the relationships and associations between the entities you have identified in part (e) <br>  <br>
-  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
+  c. Describe the interaction of technologies within the app. <br> <br>
+  d. Describe the way data is structured within the app. <br> <br>
+  e. Identify entities which must be tracked by the app. <br> <br>
+  f. Identify the relationships and associations between the entities you have identified in part (e). <br>  <br>
+  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model).
 
