@@ -1,26 +1,22 @@
 # T2A-2 Workbook
 ## 1. Describe the architecture of a typical Rails application.
-Word Count guide: 200-300 words
-The basic architecture of a Rails Application consists of the Model, View, and Controller.
-CRUD operations. - is where the most logic, heavy algorithms. It’s the business logic-intelligence of the application
-Architectural pattern.
+Word Count guide: 200-300 words <br>
+
+The basic architecture of a Rails Application is composed using the MVC Framework. The MVC framework is an application design that consist of three parts- a  model, a view, and a controller, which are interconnected and work harmoniously to create an application with CRUD capabilities. CRUD refers to the four basic functions (create, read, update, destroy) used to operate on data and whose methods are derived from the Active Records of the rails application.   
+
+The model is in charge of storing and managing data in the Rails application and ultimately defines the shape and structure of data in the application. Essentially, the Active Record is used to model the relationship between the databased used and the rails application.  
+
+The controller of a Rails application receives specific incoming requests and defines what data the application needs.  
+
+The view dispays information collected from the controller and renders that information to the user’s browser in human readable text. The views’ syntax is comprised of Embedded Ruby and HTML which is processed before being sent to the user. Helper methods are often used in the view to reuse code throughout the website and can be very beneficial when creating a basic form in HTML. 
+
+https://edgeguides.rubyonrails.org/getting_started.html 
+
  
-
- **Model**  
- 
- The Model is in charge of storing and managing the dating in the Rails Application.Th model defines the shape and structure of the data in the application. It defines the data, how its structured, and the different relationships between the data. Responsible for taking the data that comes from the view layer and then stores it somewhere, structures it. Defines what that data is that we actually need. Responsible for handling the Create o
-
-  **View**  
-
-The View is the front end of the app. The user inputs data into the view. The view is responsible for the user interaction and display. 
-
- **Controller**  
-
-The Controller manages the top to bottom relationship.
-
 ## 2. Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database.	
 Word Count guide: 150-250 words
 
+https://www.postgresql.org/files/documentation/pdf/13/postgresql-13-A4.pdf 
 
 ## 3. Discuss the implementation of Agile project management methodology.	
 Word Count guide: 200-300 words <br>
@@ -43,13 +39,16 @@ https://www.altexsoft.com/infographics/agile-project-management-methods/
 
 https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/ 
 
- 
-
- 
 
 
 ## 4. Provide an overview and description of a standard source control workflow.	
 Word Count guide: 100-200 words
+
+Git is an open source an open source version control system with features such as local branching, multiple workflows, and staging areas.  
+
+Git is a unique source control workflow in the regards to the way it handles data. Users have a local repository which can be private or public, that stores all incoming data.  Through the use of the “git add .”, “git-commit” and “git push” commands, users are able to upload their data to their local repository, which then effectively creates a series of snapshots over a projects’ period of time. This is extremely beneficial because it allows users to view changes over time, offline, in their own local repository.  
+
+Two additional features of Git include merging and branching.  
 
 ## 5. Provide an overview and description of a standard software testing process (e.g. manual testing).
 Word Count guide: 100-200 words
