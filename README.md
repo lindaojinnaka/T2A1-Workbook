@@ -16,7 +16,22 @@ https://edgeguides.rubyonrails.org/getting_started.html
 ## 2. Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database.	
 Word Count guide: 150-250 words
 
+PostgreSQL is an open source object relational database system where developers can manage data and build applications. In PostgreSQL, developers are able to define data types and functions, add new operators and index methods, and much more.  PostgreSQL also offers a wide range of advanced features such as foreign keys, transactional and data integrity, inheritance, and other services that simplify management and prevent data corruption.  
+
+Transactional intgrity include row level security and GSSAPA and SSPI authentication to authentic users. Referential integrity check are also put in place to ensure prevent leaks and ensure data is protected from covert channels.  
+
+Foreign keys improve the quality and performance of an application. A foreign key is a column or group of columns in a table that allows users to identify another row in a table. This can be useful because it reduces duplication in the user’s table and maintains referential integrity between the parent and child tables.  
+
+Inheritance utilizes the object relational aspects of PostgreSQL by allowing tables to inherit column attributes, thereby creating a parent child relationship.  
+
+Some drawbacks of PostgreSQL is poor speed performance when handling large amounts of data.  
+
+ 
+https://www.postgresql.org/ 
+
 https://www.postgresql.org/files/documentation/pdf/13/postgresql-13-A4.pdf 
+
+https://www.postgresqltutorial.com/postgresql-foreign-key/ 
 
 ## 3. Discuss the implementation of Agile project management methodology.	
 Word Count guide: 200-300 words <br>
