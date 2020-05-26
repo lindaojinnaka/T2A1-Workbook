@@ -48,11 +48,21 @@ Git is an open source an open source version control system with features such a
 
 Git is a unique source control workflow in the regards to the way it handles data. Users have a local repository which can be private or public, that stores all incoming data.  Through the use of the “git add .”, “git-commit” and “git push” commands, users are able to upload their data to their local repository, which then effectively creates a series of snapshots over a projects’ period of time. This is extremely beneficial because it allows users to view changes over time, offline, in their own local repository.  
 
-Two additional features of Git include merging and branching.  
+Two additional features of Git include merging and branching. Git allows users to create multiple independent branches that can also be merged. This is a huge benefit in regards to workflow because it allows a user to create a branch to experiment with an idea , commit to the branch, then switch back to where the user was experimenting and merge it in.
+
+https://git-scm.com/about/branching-and-merging
 
 ## 5. Provide an overview and description of a standard software testing process (e.g. manual testing).
 Word Count guide: 100-200 words
 
+Software testing is the process concerned with planning and evaluating a product, component or entire system in order to ascertain if they are meet their specified requrement and are fit for intended use. Software testing is also conducted to detect bugs that may exist in the program and can be an invaluable tool for quality control.  
+
+Genrally, the software in question will be run through the Software Life Cycle (STLC)
+which is a sequence of steps taken to ensure the quality goals of the software are met. First, the testable requirements are identified. Next, test plan is prepared  and a strategy document is created. Essentially test plan defines the entry/exit criteria, the scope of testing, and the tools used to conduct the testing. Next, test cases are created, reviewed, and reworked if necessary. Smoke tests are then performed on the test enviroment to ensure the test enviroment is stable. A smoke test is a preliminary test that determines if the program is styable. Following the smoke test, the test is executed as per plan and all defects are mapped. Finally, a closure report for the test is prepared and assessments are given an overall pass/fall outcome. 
+
+
+https://docs.google.com/presentation/d/1svLBhhx9BwgiDaiVhqjvguAsoaOCPN9h0ipobag9XwY/edit#slide=id.p
+https://www.guru99.com/software-testing-life-cycle.html
 
 ## 6. Discuss and analyse requirements related to information system security and how they relate to the project.	
 Word Count guide: 100-200 words
