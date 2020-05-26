@@ -46,7 +46,6 @@ The second value focuses on functioning software over extensive documentation. C
 
 The third value of the Agile method focuses on customer collabaration. In the Agile method, the customer is placed as the highest priority, and therefore their concerns and demands are always addressed and implemented regardless of whether or not this changes the development/outcome of the project. The customer is allowed to make changes to an original plan and the team must adapt to the customers’ needs.  
 
- 
 
 The last Agile method focuses on being able to respond to change rather than following a concrete plan. This principle is essential in order for the previous value to be effective because adaptation would be impossible if a concrete plan were followed. Customers want to be given the ability to express their needs freely and change their mind on any previous specifications. If the team ignores the customers’ needs in order to churn out a product that was conceptualized months before, the project will no longer be satisfied or the customer may go elsewhere. Anticipating and responding to change also prevents months, if not years from being wasted because a product that is not flexible to change could potentially end up being eliminated.  
 
@@ -59,7 +58,7 @@ https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/
 ## 4. Provide an overview and description of a standard source control workflow.	
 Word Count guide: 100-200 words
 
-Git is an open source an open source version control system with features such as local branching, multiple workflows, and staging areas.  
+Git is an open source version control system with features such as local branching, multiple workflows, and staging areas.  
 
 Git is a unique source control workflow in the regards to the way it handles data. Users have a local repository which can be private or public, that stores all incoming data.  Through the use of the “git add .”, “git-commit” and “git push” commands, users are able to upload their data to their local repository, which then effectively creates a series of snapshots over a projects’ period of time. This is extremely beneficial because it allows users to view changes over time, offline, in their own local repository.  
 
