@@ -46,7 +46,6 @@ The second value focuses on functioning software over extensive documentation. C
 
 The third value of the Agile method focuses on customer collabaration. In the Agile method, the customer is placed as the highest priority, and therefore their concerns and demands are always addressed and implemented regardless of whether or not this changes the development/outcome of the project. The customer is allowed to make changes to an original plan and the team must adapt to the customers’ needs.  
 
-
 The last Agile method focuses on being able to respond to change rather than following a concrete plan. This principle is essential in order for the previous value to be effective because adaptation would be impossible if a concrete plan were followed. Customers want to be given the ability to express their needs freely and change their mind on any previous specifications. If the team ignores the customers’ needs in order to churn out a product that was conceptualized months before, the project will no longer be satisfied or the customer may go elsewhere. Anticipating and responding to change also prevents months, if not years from being wasted because a product that is not flexible to change could potentially end up being eliminated.  
 
 https://www.altexsoft.com/infographics/agile-project-management-methods/ 
@@ -81,7 +80,19 @@ https://www.guru99.com/software-testing-life-cycle.html
 ## 6. Discuss and analyse requirements related to information system security and how they relate to the project.	
 Word Count guide: 100-200 words
 
+Fundamentally, information system security is a methodology that protects online data from unauthorized access. When creating a web application, developers must implement several practices from this methodology in order to prevent leaks, hacks, and outside interference with user information. 
 
+Common methods used in network security in web applications, including my own Rails project are user authentication, encryption, and input validation to block malicious input from the user’s end.  
+
+User authentication implementing user authentication to ensure user access is limited to their personal profile. In my application, I installed the ruby gem  "devise" which is a software that allows users of a web application to create an account, login, and log out of said account. One of devise's many strong points is that the software restricts users' from accessing and editing accounts that do not belong to them  
+
+Devise also uses a password hashing algorithm named "Bcrypt" to secure passwords created by users. Through this process, the user's password is shielded by a randomly generated hash that is stored in the database. By doing this, no one, including the creator of the web application has access to the original password aside from its user. 
+
+Input validation was also used in my project to block malicious input. 
+
+
+how-does-devise-keep-your-passwords-safe-d367f6e816eb/
+https://www.freecodecamp.org/news/
 
 ## 7. Discuss common methods of protecting information and data and how you would apply them to the project.		
 Word Count guide: 100-200 words
