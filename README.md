@@ -90,9 +90,9 @@ Devise also uses a password hashing algorithm named "Bcrypt" to secure passwords
 
 Input validation was also used in my project to block malicious input. 
 
+https://www.freecodecamp.org/news/how-does-devise-keep-your-passwords-safe-d367f6e816eb/
 
-how-does-devise-keep-your-passwords-safe-d367f6e816eb/
-https://www.freecodecamp.org/news/
+https://www.lrswebsolutions.com/Blog/Posts/32/Learn-More/2018/11/11-Best-Practices-for-Developing-Secure-Web-Applications/blog-post/
 
 ## 7. Discuss common methods of protecting information and data and how you would apply them to the project.		
 Word Count guide: 100-200 words
