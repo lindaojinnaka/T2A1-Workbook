@@ -119,25 +119,22 @@ Word Count guide: 100-200 words
 
 ## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O). 
 Word Count guide: 300-500 words
- According to the Big o lecture slide, “ A sorting algorithm is a set of steps to put a list of things in a specified order (like smallest to largest)  
+
+According to the Big o lecture slide, “ A sorting algorithm is a set of steps to put a list of things in a specified order (like smallest to largest)  
 
 Merge sort set algorithm.  
 
 ## 13. Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O).
 Word Count guide: 300-500 words
+
 According to the Big o lecture slide, “ A searchinh algorithm is a set of steps that are executed to find a value ina list of values”  
-
-Binary search the way the algorithm works-  @20 min 
-
-We start with sorted data. In some sort of ascending or descending order  
 
 Find the midpoint in the list (first step)  
 
-In the example below the midpoint is in index 4.  
 
-Then an if statement - if the value at the mid point of the list (midpoint is 8) is equal to the thing im looking for ,then im done. If its not equal to the thing im looking for, is it less than the thing im looking for? 
 
-Show an example for each and list figure 1. figure 2. figure 3. figure 4. 
+
+
 ## 14. Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.50-100 per part
 Word Count guide: 50-100 per part
 
