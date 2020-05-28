@@ -99,18 +99,48 @@ Word Count guide: 100-200 words
 
 
 ## 8. Research what your legal obligations are in relation to handling user data and how they can be met for the project.	
+Word Count guide: 100-200 words
 
-## 9. Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.	
+
+## 9. Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
+Word Count guide: 100-200 words
+
+
 
 ## 10. Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
+Word Count guide: 100-200 words
+
+
 
 ## 11. Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.	
+Word Count guide: 100-200 words
 
-## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O).
+
+
+## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O). 
+Word Count guide: 300-500 words
+ According to the Big o lecture slide, “ A sorting algorithm is a set of steps to put a list of things in a specified order (like smallest to largest)  
+
+Merge sort set algorithm.  
 
 ## 13. Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O).
+Word Count guide: 300-500 words
+According to the Big o lecture slide, “ A searchinh algorithm is a set of steps that are executed to find a value ina list of values”  
 
-## 14. Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.
+Binary search the way the algorithm works-  @20 min 
+
+We start with sorted data. In some sort of ascending or descending order  
+
+Find the midpoint in the list (first step)  
+
+In the example below the midpoint is in index 4.  
+
+Then an if statement - if the value at the mid point of the list (midpoint is 8) is equal to the thing im looking for ,then im done. If its not equal to the thing im looking for, is it less than the thing im looking for? 
+
+Show an example for each and list figure 1. figure 2. figure 3. figure 4. 
+## 14. Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.50-100 per part
+Word Count guide: 50-100 per part
+
   a. List and describe the software used by the app.
   <br> <br>
 
