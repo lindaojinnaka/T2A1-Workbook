@@ -244,17 +244,41 @@ https://www.studytonight.com/data-structures/linear-search-algorithm
 https://www.geeksforgeeks.org/linear-search-vs-binary-search/ 
 
 
-## 14. Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.50-100 per part
-Word Count guide: 50-100 per part
+## 14. Conduct research into a marketplace website (app) and answer the following parts: a. List and describe the software used by the app.50-100 per part 
 
-  a. List and describe the software used by the app.
-  <br> <br>
+Gumtree is an online classified, local selling site where users can list and sell items.  
 
-  b. Describe the hardware used to host the app.
-   <br> <br>
-  c. Describe the interaction of technologies within the app. <br> <br>
-  d. Describe the way data is structured within the app. <br> <br>
-  e. Identify entities which must be tracked by the app. <br> <br>
-  f. Identify the relationships and associations between the entities you have identified in part (e). <br>  <br>
-  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model).
+Word Count guide: 50-100 per part 
 
+a. List and describe the software used by the app. 
+
+The software used by Gumtree includes Jquery, Nginx, React, Java, Jquery UI, Modernizer, Amazon CloudFront, Google Cloud Platform, and Select 2.  Jquery is a Javascript library which simplifies Javascript programming. Nginx is a web server that accelerates the performance of content on busy websites. Jquery UI is a curated set of widgets and themes using Jquery, CSS, and HTML. Modernizer detects which HTML, CSS, and Javascript features a visitors’ browser supports. Amazon Cloud Front is a service that accelerates the distrubition of dynamic and static online content to users. Google Cloud Platform enables users to build and deploy websites and services using the same infrastructure as Google. Select 2 offers customizeable select boxes for tagging, searching,infinite scrolling, and more.   
+
+<br> <br> 
+
+b. Describe the hardware used to host the app. 
+
+Google Cloud Platform is a collection of Googles’ computing services that are made available to the public. Users of the platform interact with the VM (virtual machine) and are able to utilize services for data storage, machine learning, and data analytics. There are over 90 products under the cloud brand users that users can use to manage their services.  
+
+<br> <br> 
+
+https://en.wikipedia.org/wiki/Google_Cloud_Platform 
+https://medium.com/@retomeier/what-is-googles-cloud-platform-d92a9c9e5e89 
+
+c. Describe the interaction of technologies within the app. <br> <br> 
+
+Bootstrap, JQuery UI. Select 2, React, and  Jquery make up the visual components of the applications, while Google Cloud Platform, Java, and Amazon Cloud Front handles the data and performance of the application.  
+
+d. Describe the way data is structured within the app. <br> <br> 
+
+In the Gumtree application, the main data that is displayed on the home page are the items on sale. The items are broken into categories which contain corresponding items for sale. There is also a search bar to find a particular item within the application. As a user scrolls down the page, tehre are cards which display sample items for sale along with a picture. Users who wish to sell items must sign up for an account in order to list their item. However, buyers do not need an account to purchase an item, they can simply contact the seller.  
+
+e. Identify entities which must be tracked by the app. <br> <br> 
+
+The entities that must be tracked in the app are the users which can be divided into two groups: buyers and sellers. When a user makes a post to sell an item, they are assigned a user id that is attached to their item. The listing is also tracked so that listings are updated asthey are created an deleted.  
+
+f. Identify the relationships and associations between the entities you have identified in part (e). <br> <br> 
+
+In the ERD, users can have more than one listing, but a listing cannot have more than one user. Also, a listing can have zero or many traits and a listing can also have zero or many listing traits.  
+
+g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model). 
