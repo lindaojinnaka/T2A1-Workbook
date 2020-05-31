@@ -139,12 +139,67 @@ https://guides.rubyonrails.org/active_record_basics.html
 
 ## 10. Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
 Word Count guide: 100-200 words
+Data integrity refers to the maintenance of data and assurance the data is complete, consistent and accurate. Rails allows users to retrieve single source of data and  data  validation.  
 
+Databases have ample amounts of data spread all over. It is important for a relational database to be able to retrieve a single source of data in a manner that is quick and easy, and rails implements this with finder methods whic allow users to retrieve objects from the database. 
+
+Data validation is used to ensure that only valid data is saved to a database. For instance, it may be necessary for certain information to be required in a an application, and the developer would want to ensure that the information is not bypassed by the user. Validation helpers enforce this type of data integrity by preventing data to be persisted to the database when missing required, specified attributes.  
 
 
 ## 11. Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.	
 Word Count guide: 100-200 words
 
+The relational database model and its data structure are able to be manipulated through specific commands within the change method. Once these commands are input, the command “rails:db migrate” will make the necessary changes in the database.  
+
+
+The change method is the main way to write several of these migrations. Commands  to add data into the relational database include:  
+
+-add_index 
+
+-add_reference 
+
+-add_column 
+
+-add_foreign_key 
+
+-add_timestamps 
+
+
+Commands to remove data from the Rails database include:  
+
+-remove_timestamps 
+
+-rename_column 
+
+-rename_index 
+
+-rename_table 
+
+-remove_column (must supply a type) 
+
+-remove_foreign_key (must supply a second table) 
+
+-remove_index 
+
+-remove_reference 
+
+ 
+
+Commands to change data include:  
+
+-create_join_table 
+
+-create_table 
+
+-change_column_default (must supply a :from and :to option) 
+
+-change_column_null 
+
+Alternatively, there are several finder methods that can be used to retrieve data such as find, group, from, annotate, extending, create_with, includes, join, and more.  
+
+ 
+
+https://guides.rubyonrails.org/active_record_migrations.html 
 
 
 ## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O). 
