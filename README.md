@@ -123,11 +123,18 @@ https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-i
 
 ## 9. Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
 Word Count guide: 100-200 words
+
 In Rails, the Active Record is the model of a developer’s database, and is responsible for representing the data and logic that is stored.  
 
-The active record uses the technique of object relational mapping  which connects objects of an application to table in a relational database management system. Through the use of this framework, the Active Record gives users procedures which include the ability to represent models and their data, represent associations between models, validation of models prior to persistence to databases, and more.  
+The active record uses the technique of object relational mapping  which connects objects of an application to table in a relational database management system. Through the use of this framework, the Active Record gives users' procedures which include the ability to represent models and their data, represent associations between models, validation of models prior to persistence to databases, and more.  
 
-Active Record uses foreign keys and primary keys  
+Active record uses convention over configuration in Active Record which is applied in naming and schema conventions. Rails uses pluralization of class names in order to find corresponding data tables. For instance, a movie class in the database would have a database table of movies.  This is an example of how a relationship between a model and database table is created.   
+
+ 
+
+Naming conventions also apply to primary and foreign keys. When a primary key is created, an integer column named “id” is created as the tables’ primary key. Foreign keys are to be given the underscore naming convention where words are separated by underscores. As a result, Active Record will search for this convention when creating associations between models.  
+
+https://guides.rubyonrails.org/active_record_basics.html 
 
 
 ## 10. Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
