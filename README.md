@@ -96,15 +96,38 @@ https://www.lrswebsolutions.com/Blog/Posts/32/Learn-More/2018/11/11-Best-Practic
 
 ## 7. Discuss common methods of protecting information and data and how you would apply them to the project.		
 Word Count guide: 100-200 words
+Two of the most common methods of protecting information and data that has been applied to my project is the cross origin resource sharing SQL injections and  policy.  
 
+According to a report conducted by the CyberCX company names Sense of Security cross site scripting vulnerabilities were listed as of one of the top ten cyber security issues in 2018. A cross site scripting vulnerability is a type of web application vulnerability that enables attackers the ability to inject malicious client-side script that is then executed by a users’ browser, unaware to the user. This occurs when a user input is not “sanitized” and are able to insert their own HTML code. The attacker would then be able to access other pages. In order to protect from forged requests,Rails requires a security token that in its applications. By adding a security token, Rails will include it in all forms and generated AJAX requests. If the token does not match what is expected, Rails will render an error message. I would apply this to my project by including a security token to my application.  
 
+ 
+
+In addition to cross site  scripting concerns, SQL injections were another cyber security issue identified in Sense of Security’s report.  
+
+https://www.netsparker.com/blog/web-security/cross-site-scripting-xss/ 
+
+https://dzone.com/articles/preventing-cross-site-scripting-vulnerabilities-wh 
+
+https://guides.rubyonrails.org/security.html 
+
+https://www.senseofsecurity.com.au/the-state-of-web-application-security-in-australia/#:~:text=Nearly%201%20in%202%20business,are%20vulnerable%20to%20cyber%2Dattacks&text=41%25%20of%20the%20findings%20show,a%20high%20risk%20of%20attack.
 ## 8. Research what your legal obligations are in relation to handling user data and how they can be met for the project.	
 Word Count guide: 100-200 words
+There are several steps that can be taken in relation to handling user to protect users’ personal information from unauthorized access, misuse, and modification. Some of the legal obligations in relation to handling user data that can also be met in project concern encryption and identity management and authentication  
 
+Encryption is perhaps the most important legal obligation when handling user data because it ensures stored information cannot be easily deciphered by outside entities and unauthorized users. Encryption was met in this project through the use of the Devise gem which handled user accounts and password information. Devise encrypts user passwords by replacing them with randomized hashes that are stored in the database. That way, no one, including the creator of the database has access to the original password. Devise also sets the minimum requirements and standards of password complexity to ensure passwords cannot be easily guessed.  
+
+Identity management and authentication is a process set in place to identify users accessing an application and controlling and restricting their access based on their identity. There should be proper access controls set in place that allows users to access, edit and delete their information, and only their information when accessing systems.   
+
+https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information/ 
 
 ## 9. Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
 Word Count guide: 100-200 words
+In Rails, the Active Record is the model of a developer’s database, and is responsible for representing the data and logic that is stored.  
 
+The active record uses the technique of object relational mapping  which connects objects of an application to table in a relational database management system. Through the use of this framework, the Active Record gives users procedures which include the ability to represent models and their data, represent associations between models, validation of models prior to persistence to databases, and more.  
+
+Active Record uses foreign keys and primary keys  
 
 
 ## 10. Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
