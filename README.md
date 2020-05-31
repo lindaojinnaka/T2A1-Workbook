@@ -145,6 +145,11 @@ Databases have ample amounts of data spread all over. It is important for a rela
 
 Data validation is used to ensure that only valid data is saved to a database. For instance, it may be necessary for certain information to be required in a an application, and the developer would want to ensure that the information is not bypassed by the user. Validation helpers enforce this type of data integrity by preventing data to be persisted to the database when missing required, specified attributes.  
 
+https://www.promptcloud.com/blog/7-steps-to-improve-data-integrity/ 
+
+https://guides.rubyonrails.org/active_record_querying.html 
+
+https://guides.rubyonrails.org/active_record_validations.html 
 
 ## 11. Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.	
 Word Count guide: 100-200 words
@@ -205,19 +210,38 @@ https://guides.rubyonrails.org/active_record_migrations.html
 ## 12. Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O). 
 Word Count guide: 300-500 words
 
-According to the Big o lecture slide, “ A sorting algorithm is a set of steps to put a list of things in a specified order (like smallest to largest)  
+According to the Big o lecture slide, “ A sorting algorithm is a set of steps to put a list of things in a specified order (like smallest to largest).  
 
-Merge sort set algorithm.  
+Bubble sort is a comparison based sorting algorithm that takes Ο(n2). First, bubble sort checks to the first two elements next to each other and checks to see which one is greater. If the value of the first element is greater than the second element, the two elemennst are swapped. The next adjacent elements are compared, and if they are not in ascending order, they are again swapped. This continues until the array is completely sorted. This sorting algorithm is not ideal for big sets of data.  
+
+Merge sort is the divide and conquer search method whose worst case time complexity is  O (n log n). Merge sort works by first dividing an array into two equal halves that can be called subarrays. The subarrays are further broken down into smaller subarrays until there are multiple subarrays with a single element and no more can be divided. Then, all the sorted subarrays must be merged step by step to finally form a single array.  
+
+When handling smaller sets of data, the two algorithms performance are fairly similar. However, bubble sort and merge sorts’ performance differ greatly when sorting large sets of data. Merge set is able to perform consistently in respect to a large input whereas bubble sort is less time efficient when sorting large data. For instance, a merge sort with a data set of 1000 variables would need 3000 units of time/memory, whereas a bubble sort need 1000000. In this case, merge sort would prove to be the fastest algorithm.  
+
+ https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm 
+
+https://www.studytonight.com/data-structures/merge-sort 
+
+https://medium.com/@codeAMT/sorting-algorithms-the-difference-between-bubble-sort-and-merge-sort-bc91c3c2aff1 
+
+https://durofy.com/differences-between-merge-sort-bubble-sort 
 
 ## 13. Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O).
 Word Count guide: 300-500 words
 
-According to the Big o lecture slide, “ A searchinh algorithm is a set of steps that are executed to find a value ina list of values”  
+According to the Big o lecture slide, “ A searchinh algorithm is a set of steps that are executed to find a value in a list of values. ”  
 
-Find the midpoint in the list (first step)  
+One example of a searching algorithm is in O(logn)- logarithimic. Binary search is an example of this O (log n). First, we start off with data that is given in an ascending or descending order. The first step in a binary search is to find the mid-point in the list and check it against the value given. Then, if the midpoint is equal to the value that the user is trying to find, the position is returned. However, if it is less than the midpoint, the action is repeated on the bottom half of the array. If it is greater than the midpoint, the same aciton is repeated on the top half of the array.  
 
+Linear search is an algorithm in which a sequential search is performed by traversing through values one by one to find a particular value or element. First, a for loop is used to traverse the array. With each iteration, the target value Id compared with the current value. If the values match, the program will return to the current index of the array. If the value does not match, it will move to the next element.  
 
+A binary search would prove more efficient in regards to performance because a search can be greatly reduced if found in the middle instead of searching one element at a time. Also, when a search is performed, a list is cut in half, and the search would only have to be done on half of a list. However, as the number of elements in a linear search increase, so does the amount of time it takes to search the elements. The worst-case complexity of a linear search is –O(n) while a binary search has a time complexity of O (log n). The main difference between the two is a linear search access information sequentially, while a binary search accesses data randomly.  
 
+ https://www.tutorialspoint.com/data_structures_algorithms/linear_search_algorithm.htm 
+
+https://www.studytonight.com/data-structures/linear-search-algorithm 
+
+https://www.geeksforgeeks.org/linear-search-vs-binary-search/ 
 
 
 ## 14. Conduct research into a marketplace website (app) and answer the following parts:  a. List and describe the software used by the app.50-100 per part
